@@ -1,21 +1,15 @@
+/* globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ded9d9;
-  --foreground: #27423a;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #27423a;
-    --foreground: #ded9d9;
-  }
+  --background: #ded9d9; /* Set the overall background color */
+  --foreground: #27423a; /* Set the foreground color */
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: var(--background); /* Use the defined background color */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
